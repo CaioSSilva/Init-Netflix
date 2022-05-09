@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/caiossilva.github.io/netflix-react/static/css/main.dec750a8.css",
-    "main.js": "/caiossilva.github.io/netflix-react/static/js/main.6603b304.js",
-    "static/media/NetflixSansRegular.ttf": "/caiossilva.github.io/netflix-react/static/media/NetflixSansRegular.31acc1edd781a074d7f9.ttf",
-    "index.html": "/caiossilva.github.io/netflix-react/index.html",
-    "main.dec750a8.css.map": "/caiossilva.github.io/netflix-react/static/css/main.dec750a8.css.map",
-    "main.6603b304.js.map": "/caiossilva.github.io/netflix-react/static/js/main.6603b304.js.map"
+    "main.css": "/netflix-react/static/css/main.9b2fc38c.css",
+    "main.js": "/netflix-react/static/js/main.43fe8c4a.js",
+    "static/media/NetflixSansRegular.ttf": "/netflix-react/static/media/NetflixSansRegular.31acc1edd781a074d7f9.ttf",
+    "index.html": "/netflix-react/index.html",
+    "main.9b2fc38c.css.map": "/netflix-react/static/css/main.9b2fc38c.css.map",
+    "main.43fe8c4a.js.map": "/netflix-react/static/js/main.43fe8c4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dec750a8.css",
-    "static/js/main.6603b304.js"
+    "static/css/main.9b2fc38c.css",
+    "static/js/main.43fe8c4a.js"
   ]
 }
