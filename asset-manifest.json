@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CaioSSilva/netflix-react/static/css/main.5b7d7f2a.css",
+    "main.js": "/CaioSSilva/netflix-react/static/js/main.55fd9646.js",
+    "static/media/NetflixSansRegular.ttf": "/CaioSSilva/netflix-react/static/media/NetflixSansRegular.31acc1edd781a074d7f9.ttf",
+    "index.html": "/CaioSSilva/netflix-react/index.html",
+    "main.5b7d7f2a.css.map": "/CaioSSilva/netflix-react/static/css/main.5b7d7f2a.css.map",
+    "main.55fd9646.js.map": "/CaioSSilva/netflix-react/static/js/main.55fd9646.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7d7f2a.css",
+    "static/js/main.55fd9646.js"
+  ]
+}
