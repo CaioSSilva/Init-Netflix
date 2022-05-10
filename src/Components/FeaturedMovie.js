@@ -42,8 +42,8 @@ export default ({itens}) =>{
                         {description}
                     </div>
                     <div className="featured-buttons">
-                        <a className="featured--watch" href= {`/watch/${itens.id}`}><img src=""></img>Assistir</a>
-                        <a className="featured--listadd" href= {`/AddList/${itens.id}`}><img src=""></img>Minha Lista</a>
+                        <a className="featured--watch"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg"></img>Assistir</a>
+                        <a className="featured--listadd"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Add_18_N.svg"></img>Minha Lista</a>
                     </div>
                     
                     <div className="featured--genres">
