@@ -21,3 +21,6 @@ header.black{
 .header--logo img{
     height: 100%;
 }
+.header--user img{
+    border-radius: 8px;
+}

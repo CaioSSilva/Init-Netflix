@@ -19,12 +19,12 @@ export default{
             {
                 slug: 'originais',
                 title: 'Original Netflix',
-                itens: await BASIC_FETCH(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
+                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=3`)
             },
             {
                 slug: 'trending',
                 title: 'Recomendado para Você',
-                itens: await BASIC_FETCH(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
+                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=5`)
             },
             {
                 slug: 'toprated',
@@ -37,24 +37,24 @@ export default{
                 itens: await BASIC_FETCH(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'comedy',
-                title: 'Comédia',
-                itens: await BASIC_FETCH(`/discover/tv?with_network=35&language=pt-BR&api_key=${API_KEY}`)
+                slug: 'fantasia',
+                title: 'Fantasia',
+                itens: await BASIC_FETCH(`/discover/movie?with_genres=14&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'horror',
-                title: 'Terror',
-                itens: await BASIC_FETCH(`/discover/tv?with_network=27&language=pt-BR&api_key=${API_KEY}`)
+                slug: 'drama',
+                title: 'Drama',
+                itens: await BASIC_FETCH(`/discover/movie?with_genres=18&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'romance',
-                title: 'Romance',
-                itens: await BASIC_FETCH(`/discover/tv?with_network=10749&language=pt-BR&api_key=${API_KEY}`)
+                slug: 'faroeste',
+                title: 'Faroeste',
+                itens: await BASIC_FETCH(`/discover/movie?with_genres=37&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'documentary',
-                title: 'Documentários',
-                itens: await BASIC_FETCH(`/discover/tv?with_network=99&language=pt-BR&api_key=${API_KEY}`)
+                slug: 'mistery',
+                title: 'Mistério',
+                itens: await BASIC_FETCH(`/discover/tv?with_genres=9648&language=pt-BR&api_key=${API_KEY}`)
             },
         ]
     },
