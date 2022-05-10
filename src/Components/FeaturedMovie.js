@@ -12,9 +12,10 @@ export default ({itens}) =>{
     let description = itens.overview
     if(description.length > 200){
         description = description.substring(0, 200) + '...'
-
     }
-
+    if(description.length == 0){
+        window.location.reload()
+    }
     return(
         <section className="featured" style={{
             backgroundImage: `url(https://image.tmdb.org/t/p/original${itens.backdrop_path})`,

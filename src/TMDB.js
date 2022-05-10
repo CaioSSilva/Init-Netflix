@@ -12,6 +12,7 @@ const BASIC_FETCH = async (endpoint) =>{
     const json = await req.json();
     return json;
 }
+let randomNumber = Math.floor((Math.random() * 10) + 1);
 
 export default{
     getHomeList: async ()=>{
@@ -19,12 +20,12 @@ export default{
             {
                 slug: 'originais',
                 title: 'Original Netflix',
-                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=3`)
+                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=${randomNumber}`)
             },
             {
                 slug: 'trending',
                 title: 'Recomendado para Você',
-                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=5`)
+                itens: await BASIC_FETCH(`/tv/popular?language=pt-BR&api_key=${API_KEY}&page=3`)
             },
             {
                 slug: 'toprated',
