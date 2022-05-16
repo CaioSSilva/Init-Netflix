@@ -1,6 +1,6 @@
 {
-  "name": "Netflix",
-  "homepage": "Netflix/",
+  "name": "Netflix-React",
+  "homepage": "Init-Netflix/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
